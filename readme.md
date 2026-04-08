@@ -55,7 +55,7 @@ Our 2-minute video demo covers:
 - File transfer workflow
 - Graceful disconnection
 
-[**▶️ Watch Project Demo on YouTube**](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[**▶️ Watch Project Demo on YouTube**](https://1drv.ms/v/c/a65cb3fc823644a5/IQAe1Bd9eS2SQ4CxBg86I_YSAf5YS3lq9x_yyvBUVFQkwwI?e=mXDA6b)
 
 ---
 
@@ -98,8 +98,9 @@ python3 server.py
 ├─ config.py # HOST and PORT configuration
 ├─ crypto.py # Encryption/decryption helper functions
 ├─ README.md # This documentation
-# Step 2: Connect a Client
 ```
+
+# Step 2: Connect a Client
 
 ### Open a new terminal for each client and run:
 
@@ -136,6 +137,6 @@ python3 client.py
   - ChatGPT assisted in GUI layout and encryption-safe protocols.
   - GitHub Copilot helped plan threading workflow and header-based file transfer.
 - **References:**
-  - Python Socket Programming HOWTO
+  - Python Socket Programming HOW TO
   - Tkinter GUI Documentation
   - Real Python: Intro to Python Threading
