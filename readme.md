@@ -55,7 +55,7 @@ Our 2-minute video demo covers:
 - File transfer workflow
 - Graceful disconnection
 
-[**▶️ Watch Project Demo on YouTube**](https://1drv.ms/v/c/a65cb3fc823644a5/IQAe1Bd9eS2SQ4CxBg86I_YSAf5YS3lq9x_yyvBUVFQkwwI?e=mXDA6b)
+[**▶️ Watch Project Demo on YouTube**](https://youtu.be/KFpFTYBKZA8)
 
 ---
 
