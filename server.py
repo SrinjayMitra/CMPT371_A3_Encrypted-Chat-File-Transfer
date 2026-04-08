@@ -19,7 +19,7 @@ def handle_client(client):
             if not data:
                 break
 
-            # 🔒 Server DOES NOT decrypt (E2EE simulation)
+            #  Server DOES NOT decrypt (E2EE simulation)
             broadcast(data, client)
 
         except:

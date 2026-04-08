@@ -55,36 +55,7 @@ file_btn.pack(pady=5)
 msg_entry.bind("<Return>", lambda event: send_message())
 
 # ---------------- FUNCTIONS ---------------- #
-# def receive_messages():
-#     while True:
-#         try:
-#             data = client.recv(8192)
-#             if not data:
-#                 continue
-            
-#             # Check if data is a file
-#             if data.startswith(b"FILE:"):
-#                 # Split: FILE:filename:encrypted_content
-#                 parts = data.split(b":", 2)
-#                 filename = parts[1].decode()
-#                 encrypted_content = parts[2]
 
-#                 save_path = filedialog.asksaveasfilename(initialfile=filename)
-#                 if save_path:
-#                     with open(save_path, "wb") as f:
-#                         f.write(decrypt(encrypted_content))
-#                     chat_area.insert(tk.END, f"[INFO] Received file: {filename}\n")
-#                     chat_area.yview(tk.END)
-#                 continue
-
-#             # Otherwise it's a regular message
-#             message = decrypt(data)
-#             chat_area.insert(tk.END, message + "\n")
-#             chat_area.yview(tk.END)
-
-#         except:
-#             chat_area.insert(tk.END, "[ERROR] Connection lost\n")
-#             break
 
 def receive_messages():
 
@@ -172,20 +143,7 @@ def send_message():
     chat_area.yview(tk.END)
     msg_entry.delete(0, tk.END)
 
-# def send_file():
-#     file_path = filedialog.askopenfilename()
-#     if not file_path:
-#         return
-#     filename = os.path.basename(file_path)
-#     with open(file_path, "rb") as f:
-#         file_data = f.read()
-#     encrypted_data = encrypt(file_data)
-#     try:
-#         client.send(b"FILE:" + filename.encode() + b":" + encrypted_data)
-#         chat_area.insert(tk.END, f"[INFO] Sent file: {filename}\n")
-#         chat_area.yview(tk.END)
-#     except:
-#         chat_area.insert(tk.END, "[ERROR] Failed to send file\n")
+
 def send_file():
     file_path = filedialog.askopenfilename()
 
