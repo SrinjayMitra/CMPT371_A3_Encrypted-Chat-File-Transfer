@@ -88,7 +88,7 @@ encryptedChat/
 
 ```bash
 #install dependencies
-pip install -r requiremnets.txt
+pip install -r requirements.txt
 
 
 # start the server
