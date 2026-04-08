@@ -75,7 +75,7 @@ Our 2-minute video demo covers:
 encryptedChat/
 │
 ├─ client.py # GUI client script
-├─ server.py # Server script handl
+├─ server.py # Server script handling
 ```
 
 ---
